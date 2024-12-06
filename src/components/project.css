@@ -1,0 +1,230 @@
+.projects {
+    padding: 3rem;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .projects-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .projects-description {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .project-card-title {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    color: #333;
+  }
+  
+  .project-card-description {
+    font-size: 1rem;
+    color: #777;
+    padding: 0 1rem;
+  }
+  
+  .github-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-image: linear-gradient(to left bottom, #181719, #201d23, #28242d, #2f2b38, #373243, #373040, #372f3e, #372d3b, #2d232c, #21191e, #150f12, #000000);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 1rem 0;
+  }
+  
+  .github-link:hover {
+    background-image: linear-gradient(to left bottom, #17121c, #2c2734, #433d4f, #5b546b, #746d88, #7c7591, #837d99, #8b85a2, #827d97, #7a758c, #716d81, #696576);
+  }
+
+  .pinterest-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-image: linear-gradient(to left bottom, #181719, #201d23, #28242d, #2f2b38, #373243, #373040, #372f3e, #372d3b, #2d232c, #21191e, #150f12, #000000);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 1rem 0;
+    margin-left: 3%;
+  }
+  
+  .pinterest-link:hover {
+    background-image: linear-gradient(to left bottom, #17121c, #2c2734, #433d4f, #5b546b, #746d88, #7c7591, #837d99, #8b85a2, #827d97, #7a758c, #716d81, #696576);
+  }
+
+  
+  
+  /* Responsive Design */
+  
+  /* For large desktops and laptops (1920px and above) */
+  @media (min-width: 1920px) {
+    .projects-title {
+      font-size: 3rem;
+    }
+  
+    .projects-description {
+      font-size: 1.3rem;
+    }
+  
+    .project-card-title {
+      font-size: 1.8rem;
+    }
+  
+    .project-card-description {
+      font-size: 1.1rem;
+    }
+  }
+  
+  /* For 1440x900 screens */
+  @media (max-width: 1440px) {
+    .projects-title {
+      font-size: 2.8rem;
+    }
+  
+    .projects-description {
+      font-size: 1.2rem;
+    }
+  
+    .project-card-title {
+      font-size: 1.7rem;
+    }
+  
+    .project-card-description {
+      font-size: 1.05rem;
+    }
+  }
+  
+  /* For standard desktops (1280px) */
+  @media (max-width: 1280px) {
+    .projects-title {
+      font-size: 2.5rem;
+    }
+  
+    .projects-description {
+      font-size: 1.1rem;
+    }
+  
+    .project-card-title {
+      font-size: 1.6rem;
+    }
+  
+    .project-card-description {
+      font-size: 1rem;
+    }
+  }
+  
+  /* For tablets (600px - 800px) */
+  @media (max-width: 800px) {
+    .projects-title {
+      font-size: 2rem;
+    }
+  
+    .projects-description {
+      font-size: 1rem;
+    }
+  
+    .projects-container {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .project-card-title {
+      font-size: 1.4rem;
+    }
+  
+    .project-card-description {
+      font-size: 1rem;
+    }
+  
+    .github-link {
+      padding: 8px 16px;
+    }
+  }
+  
+  /* For smaller tablets and large phones (600px - 480px) */
+  @media (max-width: 600px) {
+    .projects-title {
+      font-size: 1.8rem;
+    }
+  
+    .projects-description {
+      font-size: 0.95rem;
+    }
+  
+    .projects-container {
+      grid-template-columns: 1fr; /* Stack the project cards vertically */
+      gap: 1rem;
+    }
+  
+    .project-card-title {
+      font-size: 1.3rem;
+    }
+  
+    .project-card-description {
+      font-size: 0.9rem;
+    }
+  
+    .github-link {
+      padding: 6px 12px;
+    }
+  }
+  
+  /* For mobile devices (phones in portrait mode) */
+  @media (max-width: 414px) {
+    .projects-title {
+      font-size: 1.6rem;
+    }
+  
+    .projects-description {
+      font-size: 0.9rem;
+    }
+  
+    .projects-container {
+      grid-template-columns: 1fr; /* Stack the project cards vertically */
+    }
+  
+    .project-card-title {
+      font-size: 1.2rem;
+    }
+  
+    .project-card-description {
+      font-size: 0.8rem;
+    }
+  
+    .github-link {
+      padding: 6px 12px;
+    }
+  }
+  
