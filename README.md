@@ -1,5 +1,5 @@
 #Portfolio sample for Web Developers
-[screencapture-localhost-3000-2025-01-18-16_41_27.pdf](https://github.com/user-attachments/files/18464269/screencapture-localhost-3000-2025-01-18-16_41_27.pdf)
+![Image](https://github.com/user-attachments/assets/0ba88e73-6840-4f63-aaa8-0876007fe0fa)
 
 # My-Sample-Portfolio
 # Sample-Portfolio
